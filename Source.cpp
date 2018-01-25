@@ -1,10 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+char firstLetter;
+char secondLetter;
+char ThirdLetter;
 
 
-//instructions for 1-19
-//
-//intro: Write a program that asks a user for how old they are, and then repeats that number back to them in an insult.
-//
-//intermediate: Write a program that prints the numbers 256 down to 32, counting by fours
-//
-//advanced: make an account at HackerRank.com
-//do this problem: https://www.hackerrank.com/challenges/c-tutorial-struct/problem
+
+int main() {
+
+	cout << "Enter the 1 letter password." << endl;
+	cin >> firstLetter;
+	cin >> secondLetter;
+	cin >> ThirdLetter;
+
+
+
+	if (firstLetter == 'N' && secondLetter == 'E' && ThirdLetter == 'S')
+		cout << "welcome to the game!" << endl;
+	else
+		cout << "go away, poser!" << endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
